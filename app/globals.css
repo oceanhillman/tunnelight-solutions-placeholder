@@ -16,12 +16,13 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+html, body {
+  overflow: hidden;
+}
+
+#hero-container {
+  background: linear-gradient(to top, #031e26bf, #031e26bf), url("../public/images/hero.jpg");
+  background-size: cover;
+  background-position: 35%;
+  background-repeat: no-repeat;
 }
