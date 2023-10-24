@@ -12,12 +12,12 @@ export default function Home() {
 
           <div className="flex flex-col justify-center items-center">
             <Image src={logo} alt="logo" priority={true} className=" w-[400px] sm:w[400px] md:w-[500px] lg:w-[600px]" />
-            <h1 className="mt-[5%] text-center text-white text-xl md:text-2xl lg:text-3xl">
+            <h1 className="mt-[5%] text-center text-white/90 text-xl md:text-2xl lg:text-3xl font-avenir">
               BETA VERSION SPRING 2024
             </h1>
           </div>
           
-          <h1 className="mx-[20px] -mt-[50px] mb-[20px] pt-[30px] px[100px] text-center border-t-2 text-white text-xl md:text-2xl lg:text-3xl">
+          <h1 className="mx-[20px] -mt-[50px] mb-[20px] pt-[30px] px[100px] text-center border-t-2 text-white/90 text-xl md:text-2xl lg:text-3xl font-avenir">
             Empowering the unhoused with AI-driven solutions
           </h1>
 
