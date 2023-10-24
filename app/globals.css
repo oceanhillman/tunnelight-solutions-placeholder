@@ -19,7 +19,6 @@
 }
 
 html, body {
-  overflow: hidden;
   background-color: black;
 }
 
@@ -28,6 +27,7 @@ html, body {
   background-size: cover;
   background-position: 35%;
   background-repeat: no-repeat;
+  
 }
 
 
