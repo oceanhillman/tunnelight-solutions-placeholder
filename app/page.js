@@ -14,18 +14,18 @@ export default function Home() {
 
           <div className="flex flex-col justify-center items-center">
             <Image src={logo} alt="logo" priority={true} className=" w-[400px] sm:w[400px] md:w-[500px] lg:w-[600px]" />
-            <h1 className="mt-[5%] text-center text-white/90 text-xl md:text-2xl lg:text-3xl font-avenir">
+            <h1 className="mt-[5%] text-center text-white/90 text-xl md:text-2xl lg:text-3xl font-body">
               BETA VERSION SPRING 2024
             </h1>
           </div>
           
           <div>
-            <h1 className="mx-[20px] mb-[150px] md:mb-[75px] pt-[30px] px[100px] text-center border-t-2 text-white/90 text-xl md:text-2xl lg:text-3xl font-avenir">
+            <h1 className="mx-[20px] mb-[150px] md:mb-[75px] pt-[30px] px[100px] text-center border-t-2 text-white/90 text-xl md:text-2xl lg:text-2xl font-body">
               Empowering the unhoused with AI-driven solutions
             </h1>
           </div>
 
-          <p className="absolute bottom-0 text-center text-white/30 font-avenir">
+          <p className="absolute bottom-0 text-center text-white/30 font-body">
             © {currentYear} Tunnelight Solutions
           </p>
         </div>

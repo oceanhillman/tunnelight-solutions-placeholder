@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "avenir": "avenir",
+        "body": "Figtree:wght@100",
       },
     },
   },
